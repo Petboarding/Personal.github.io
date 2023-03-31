@@ -988,53 +988,6 @@ clip-path: polygon(77% 0, 100% 0, 100% 35%, 100% 100%, 75% 87%, 0 100%, 0 100%, 
 }
 /*-------------------------------------------------*/
 
-@media(max-width:390px)
-{
-.container .owl-carousel  .img-sec img{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    left: 500px;
-    margin-bottom: 50px;
-}
-
-.container .owl-carousel{
-    padding: 60px;
-    background:#E7E9EC;
-    height: 775px;
-    padding-bottom: 0px;
-    margin-top: 45px;
-}
-
-.card-sec .container .card{
- border-radius: 7px;
- width: 200PX;
- position: relative;
- left: 40px;
-
- }
-
- .about-bg {
-    background-color: #E7E9EC;
-    margin-top: 40px;
-    padding-top: 70px;
-    margin-bottom: 70px;
-    padding: 50px;
-    height: 890px;
-}
-
-.Services-sec .container .card {
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    left: 65px;
-    
-
-}
-
-
-}
 /*-------------------------------------------*/
 @media(max-width:412px)
 {
@@ -1074,6 +1027,359 @@ clip-path: polygon(77% 0, 100% 0, 100% 35%, 100% 100%, 75% 87%, 0 100%, 0 100%, 
 
 
 }
+
+
+/*-------------------------------------------*/
+@media(max-width:400px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 590px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 775px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: 84px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 70px;
+    
+
+}
+
+
+}
+
+
+/*-----------------------------------------------*/
+@media(max-width:390px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 562px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 775px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: 77px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 66px;
+    
+
+}
+
+
+}
+
+
+/*-----------------------------------------------*/
+
+@media(max-width:380px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 545px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 775px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: 74px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+    
+
+}
+
+
+}
+
+
+/*-----------------------------------------------*/
+@media(max-width:370px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 515px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 805px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: 69px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 57px;
+    
+
+}
+
+
+}
+
+
+/*-----------------------------------------------*/
+@media(max-width:360px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 495px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 840px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: 65px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 54px;
+    
+
+}
+
+
+}
+
+
+
+/*-----------------------------------------------*/
+@media(max-width:350px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 473px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 825px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: 59px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 47.5px;
+    
+
+}
+
+
+}
+
+
+/*-----------------------------------------------*/
+@media(max-width:340px)
+{
+.container .owl-carousel  .img-sec img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 440px;
+    margin-bottom: 50px;
+}
+
+.container .owl-carousel{
+    padding: 60px;
+    background:#E7E9EC;
+    height: 875px;
+    padding-bottom: 0px;
+    margin-top: 45px;
+}
+
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 200PX;
+ position: relative;
+ left: -60px;
+
+ }
+
+ .about-bg {
+    background-color: #E7E9EC;
+    margin-top: 40px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    padding: 50px;
+    height: 890px;
+}
+
+.Services-sec .container .card {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 65px;
+    
+
+}
+
+
+}
+
 
 
 /*-----------------------------------------------*/

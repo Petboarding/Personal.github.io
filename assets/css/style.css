@@ -1,0 +1,556 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	
+}
+:root{
+
+	--green:#3dcfd3;
+	--dark:#161616;
+	--gray:#898989;
+	--light:#f2f2f2;
+}
+
+.bg{
+	background-color: #161616;
+	width: 100%;
+  clip-path: polygon(77% 0, 100% 0, 100% 35%, 100% 100%, 75% 87%, 0 100%, 0 100%, 0 99%, 0 0, 19% 0);
+
+    
+}
+
+.bg .container .navbar ul li a{
+	padding: 25px;
+	color: #f2f2f2;
+	transition: .2s ease;
+	font-family:Consolas;
+	font-size: 16px;
+	
+
+}
+
+.bg .container .navbar ul li a:hover{
+	
+	color: #3dcfd3;
+}
+.bg .container .navbar-toggler-icon i{
+	color: #fff;
+	
+}
+.bg .container .navbar-brand {
+	font-size: 35px;
+	color:  #fff;
+	font-weight: bold;
+	transition: .1s ease;
+	font-weight: bold;
+	font-family:Georgia;
+}
+.bg .container .navbar-brand span {
+	color: #3dcfd3;
+
+}
+.bg .container .navbar-brand:hover {
+	
+	color: #3dcfd3;
+	
+}
+.bg .container form .btn{
+   width: 120px;
+	background-color: #3dcfd3;
+	font-weight: bold;
+	color: #fff;
+	font-size: 19px;
+	transition: .3s;
+	font-family:Consolas;
+}
+
+.bg .container form .btn:hover{
+	width: 120px;
+	background-color:#fff;
+	color: #000;
+
+
+}
+
+.bg .btns .btn{
+
+	width: 120px;
+	background-color: #3dcfd3;
+	margin-left: 25rem;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.bg .btns .btn:hover{
+	width: 120px;
+	background-color:#000;
+	color: #fff;
+	border-color: #3dcfd3; 
+}
+.bg .Banr-sec .container .bnr-inr .content h6{
+	color: #3dcfd3;
+	font-family:Consolas;
+
+
+}
+.bg .Banr-sec .container .bnr-inr .content h1 {
+	color: #f2f2f2;
+	font-family:Georgia;
+	word-spacing: 8px;
+	font-size: 48px;
+}
+.bg .Banr-sec .container .bnr-inr .content span {
+color: #3dcfd3;
+}
+.bg .Banr-sec .container .bnr-inr .content h1 .text-anmt span{
+	
+	color: #3dcfd3;
+
+}
+.bg .Banr-sec .container .bnr-inr .content p {
+	color: #f2f2f2;
+	margin-top: 18px;
+	font-size: 15px;
+  font-family:Consolas;
+}
+.bg .Banr-sec .container .bnr-inr .content .btn{
+	width: 120px;
+	background-color:#000;
+	border-color:#3dcfd3;
+	margin-right: -120px; 
+	color: #3dcfd3;
+	font-weight: bold;
+	margin-top: 30px;
+	font-family:Consolas;
+	font-size: 17.5px;
+}
+.bg .Banr-sec .container .bnr-inr .content .btn:hover{
+	
+	color: #f2f2f2;
+
+}
+.bg .Banr-sec{
+	height: 700px;
+}
+ .bg .Banr-sec .bnr-inr{
+ 	margin-top: 230px;
+ }
+/*==============================About Us sec start================================*/
+ .about-bg {
+	background-color: #E7E9EC;
+	margin-top: 40px;
+	padding-top: 70px;
+	margin-bottom: 70px;
+	padding: 50px;
+	height: 500px;
+}
+.about-bg .container .content h6{
+	font-size: 20px;
+	margin-top: 50px;
+	padding-bottom: 7px;
+	font-family:Georgia;
+
+
+}
+.about-bg .container .content h1
+{
+	font-size: 39px;
+	font-family:Georgia;
+	font-weight: 600;
+}
+.about-bg .container .content h1 span{
+	color: var(--green);
+	
+	
+	}
+.about-bg .container .content p{
+	color: var(--gray);
+	margin-top: 8px;
+	font-family:Consolas;
+	font-size: 15px;
+}
+.about-bg .container .icns{
+	margin-top: 30px;
+	font-size: 17px;
+	
+}
+.about-bg .container .icns i{
+	
+	padding: 8.5px;
+	
+   /*background-color:var(--green);*/
+   font-size: 20px;
+
+}
+.about-bg .container .icns i:hover{
+	background-color: var(--green);
+	color: #fff;
+	transition: .1.5s;
+	border-radius: 50%;
+}
+
+/*=============================Services sec start================================*/
+.Services-sec{
+ 	padding-bottom: 70px;
+	background-color: #E7E9EC;
+
+
+}
+.Services-sec .container .srvc-hding h4{
+	font-size: 39px;
+	font-family:Georgia;
+	font-weight: 600;
+
+}
+.Services-sec .container .srvc-hding p{
+	font-family:Consolas;
+	font-size: 15px;
+
+}
+.Services-sec .container .card {
+    width: 330px;
+    height: 200px;
+    
+}
+
+.Services-sec .container .card .card-body .icn{
+	width: 74px;
+	height: 69px;
+	background-color: var(--green);
+	/*margin-top: -3.7rem;
+	margin-left: 99px;*/
+	position: absolute;
+	left: 122px;
+	top: -50px;
+
+} 
+.Services-sec .container .card .card-body .icn i{
+    font-size: 25px;
+	background-color: var(--green);
+	text-align: center;
+	margin-top: 18px;
+	
+}
+.Services-sec .container .card .card-body{
+	text-align: center;
+} 
+.Services-sec .container .card .card-body h4{
+	padding-top: 1.8rem;
+	font-size: 24px;
+	
+	font-family:Georgia;
+
+} 
+.Services-sec .container .card .card-body p{
+   padding-top: 5px;
+   font-size: 13px;
+   font-family:Consolas;
+}
+.Services-sec .container .card:hover{
+	background: #000;
+	color: #fff;
+	transition: .5s;
+	
+
+} 
+.Services-sec .container .card{
+  margin-top: 100px;
+
+} 
+.Services-sec .container .srvc-hding {
+	padding-top: 60px;
+}
+.Services-sec .container .srvc-hding h4 {
+	font-size: 33px;
+	font-weight: bold;
+}
+.Services-sec .container .srvc-hding h4 span {
+	color: var(--green);
+}
+
+/*=====================================Img deign sec start==================================*/
+/*.img-dsgn img{
+	width: 100%;
+	clip-path: polygon(0 0,100% 0,100% 100%,80% 80%,0 100%);*/
+
+
+
+.img-dsgn{
+	background-image: url(../images/bg3.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+clip-path: polygon(77% 0, 100% 0, 100% 35%, 100% 100%, 75% 87%, 0 100%, 0 100%, 0 99%, 0 0, 19% 0);
+
+	height: 450px;
+
+}
+
+.img-dsgn .container .content{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+.img-dsgn .container .content h3{
+	font-weight: bold;
+	color: #fff;
+	font-size: 33px;
+   word-spacing: 10px;
+	line-height: 70px;
+	font-family:Georgia;
+}
+.img-dsgn .container .content p{
+	font-family:Consolas;
+	color: #fff;
+	padding:5px;
+	font-size: 14px;
+
+}
+ .img-dsgn .container .content .btn{
+ 	width: 140px;
+	background-color: #3dcfd3;
+	line-height:30px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 18.5px;
+	height: 43px;
+	margin-top: 30px;
+	font-family:Consolas;
+	 
+}
+.img-dsgn .container .content .btn:hover{
+ 
+	
+   background-color: #fff;
+	color: #000;
+	transition: .3s;
+	 
+}
+
+/*=====================================Slider sec start===================================*/
+.container .owl-carousel{
+	padding: 60px;
+	background:#E7E9EC;
+	height: 585px;
+	padding-bottom: 0px;
+	margin-top: 45px;
+}
+.container .owl-carousel h4 span{
+	color: var(--green);
+
+}
+.container .owl-carousel h4 {
+   font-weight: bold;
+   font-size: 33px;
+   margin-bottom: 10px;
+	font-family:Georgia;
+	
+}
+.container .owl-carousel  p{
+	font-family:Georgia;
+	font-size: 15px;
+
+}
+
+.container .owl-carousel  .img-sec img{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	position: relative;
+	left: 440px;
+	margin-bottom: 50px;
+}
+.container .owl-carousel .btn{
+ 	width: 120px;
+	background-color: #3dcfd3;
+	font-weight: bold;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 50px;
+	font-family:Consolas;
+	height: 42px;
+}
+.container .owl-carousel .btn:hover{
+ 	background-color: #000;
+	color: #fff;
+	transition: .3s;
+}
+/*=====================================Gallery sec start======================================*/
+.galry-sec{
+	background:#E7E9EC; 
+	margin-top: 70px;
+	padding: 30px;
+	margin-bottom: 90px;
+
+}
+.galry-sec .content{
+	margin-top: 40px;
+}
+.galry-sec .content h4 span{
+	color: var(--green);
+}
+.galry-sec .content h4 {
+	font-weight: bold;
+   font-size: 33px;
+   margin-bottom: 10px;
+	font-family:Georgia;
+}
+.galry-sec .content  p{
+		font-family:Consolas;
+	font-size: 15px;
+
+}
+
+.galry-sec img{
+	padding-top: 10px;
+	margin-bottom:40px;
+}
+
+	
+/*==================================CARD SEC START=============================================*/
+.card-sec{
+	width: 100%;
+	clip-path: polygon(0 0,100% 0,100% 100%,80% 87%,0 100%);
+	height: 1000px;
+	margin-top: 70px;
+}
+.card-sec .container .content{
+	padding-top: 80px;
+}
+.card-sec .container .cnt-prg{
+	font-size: 15px;
+}
+.card-sec .container .card{
+ border-radius: 7px;
+ width: 350PX;
+
+}
+.card-sec .content h4 span{
+	color: var(--green);
+}
+
+.card-sec .container .content  h4 {
+   font-weight: bold;
+   font-size: 33px;
+   margin-bottom: 10px;
+	font-family:Georgia;
+	
+}
+.card-sec .container .card-text   p{
+	font-family:Georgia;
+	font-size: 15px;
+
+}
+.card-sec .container .card .card-body h4{
+	font-size: 24.5px;
+		font-family:Georgia;
+}
+.card-sec .container .card {
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+.card-sec .container .card span {
+	color: grey;
+	margin-bottom: 20px;
+	font-family:Consolas;
+	font-size: 15px;
+
+}
+.card-sec .container .card p {
+	margin-top: 10px;
+}
+.card-sec .container .card .card-body .btn {
+	background-color: var(--green);
+	color: #fff;
+	font-family:Consolas;
+}
+
+
+/*============================================Form sec start=======================================*/
+
+.form-sec{
+	background-color:#E7E9EC;
+	height: 533px;
+   padding: 5px;
+   margin-top: 60px;
+
+}
+.form-sec .content h3 strong{
+	color: var(--green);
+}
+
+.form-sec .content h3{
+	font-size: 33px;
+	font-weight: bold;
+	margin-top:36px;
+	font-family:Georgia;
+
+}
+
+.form-sec .content   p{
+	font-family:Consolas;
+	font-size: 15px;
+
+
+}
+.form-sec .container h4{
+	font-size: 20.5px;
+	font-weight: bold;
+	font-family:Georgia;
+}
+.form-sec .container span{
+	font-size: 15px;
+  font-family:Consolas;
+}
+.form-sec .container .colm-sec .card.icn i {
+  font-size: 40px;
+}
+.form-sec .container .colm-sec {
+   padding: 50px;
+}
+.form-sec .container form input {
+	height: 40px;
+	margin-top: 20px;
+}
+  .form-sec .container form .text-center .btn{
+ 	background-color:green;
+	color: #fff;
+	font-family:Consolas;
+
+ }
+   .form-sec .container .mt-4 .text-center a .btn:hover{
+ 	background-color: #000;
+	color: #fff;
+	transition: .3s;
+}
+/*============================================Fotr sec start=======================================*/
+.fotr-sec{
+	background-color: #000;
+	padding: 80px;
+	margin-top: 0px;
+
+}
+.fotr-sec .container .content h2{
+	font-size: 48px;
+	font-weight: bold;
+	color: var(--green);
+	letter-spacing: 13px;
+	font-family:Georgia;
+}
+.fotr-sec .container .content i{
+	padding: 8px;
+	color:#fff;
+	margin-top: 5px;
+
+}
+.fotr-sec .container .content i:hover{
+	padding: 8px;
+	color:#fff;
+	background-color: var(--green);
+	border-radius: 50%;
+}
+

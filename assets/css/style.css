@@ -56,6 +56,18 @@ body{
 	color: #3dcfd3;
 	
 }
+.navbar-brand::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #161616;
+	animation: show 1s ease forwards;
+	animation-delay: .3s;
+
+}
 .bg .container form .btn{
    width: 120px;
 	background-color: #3dcfd3;
@@ -103,6 +115,18 @@ body{
 	word-spacing: 8px;
 	font-size: 48px;
 }
+.bg .Banr-sec .container .bnr-inr .content::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #161616;
+	animation: show 1s ease forwards;
+	animation-delay: .9s;
+
+}
 .bg .Banr-sec .container .bnr-inr .content span {
 color: #3dcfd3;
 }
@@ -133,6 +157,11 @@ color: #3dcfd3;
 	color: #f2f2f2;
 
 }
+.bg .Banr-sec .container .bnr-inr img:hover{
+	border-radius: 20px;
+	transition: 1s;
+	
+}
 .bg .Banr-sec{
 	height: 700px;
 }
@@ -154,6 +183,18 @@ color: #3dcfd3;
 	padding-bottom: 7px;
 	font-family:Georgia;
 
+
+}
+.about-bg .container .content::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #E7E9EC;
+	animation: show 5s ease forwards;
+	animation-delay: .4s;
 
 }
 .about-bg .container .content h1
@@ -204,60 +245,73 @@ color: #3dcfd3;
 	font-size: 39px;
 	font-family:Georgia;
 	font-weight: 600;
+	text-align: center;
 
 }
+ 
 .Services-sec .container .srvc-hding p{
 	font-family:Consolas;
 	font-size: 15px;
+	text-align: center;
 
 }
-.Services-sec .container .card {
-    width: 330px;
-    height: 200px;
+.Services-sec .container .cardd {
+   
+    
+    background-color: #fff;
+
     
 }
 
-.Services-sec .container .card .card-body .icn{
+.Services-sec .container .cardd .card-bodyy .icn{
 	width: 74px;
 	height: 69px;
 	background-color: var(--green);
 	/*margin-top: -3.7rem;
 	margin-left: 99px;*/
-	position: absolute;
-	left: 122px;
-	top: -50px;
+	position: relative;
+	top: -54px;
+
 
 } 
-.Services-sec .container .card .card-body .icn i{
+.Services-sec .container .cardd .card-bodyy .icn i{
     font-size: 25px;
 	background-color: var(--green);
 	text-align: center;
 	margin-top: 18px;
 	
 }
-.Services-sec .container .card .card-body{
+.Services-sec .container .cardd .card-bodyy{
 	text-align: center;
+	padding: 0px;
 } 
-.Services-sec .container .card .card-body h4{
-	padding-top: 1.8rem;
-	font-size: 24px;
-	
+.Services-sec .container .cardd .card-bodyy h4{
+    margin-top: -22px;
+	font-size: 22px;
 	font-family:Georgia;
 
 } 
-.Services-sec .container .card .card-body p{
-   padding-top: 5px;
-   font-size: 13px;
-   font-family:Consolas;
+.Services-sec .container .cardd .card-bodyy:hover{
+    margin-top: -8px;
+
+
 }
-.Services-sec .container .card:hover{
+.Services-sec .container .cardd .card-bodyy p{
+   padding-top: 5px;
+   font-size: 10px;
+   font-family:Consolas;
+   padding-bottom: 30px;
+   text-align: center;
+}
+.Services-sec .container .cardd:hover{
 	background: #000;
 	color: #fff;
-	transition: .5s;
+	transition: .4s;
+	
 	
 
 } 
-.Services-sec .container .card{
+.Services-sec .container .cardd{
   margin-top: 100px;
 
 } 
@@ -412,40 +466,36 @@ clip-path: polygon(77% 0, 100% 0, 100% 35%, 100% 100%, 75% 87%, 0 100%, 0 100%, 
 
 	
 /*==================================CARD SEC START=============================================*/
-.card-sec{
+.cardd-sec{
 	width: 100%;
 	clip-path: polygon(0 0,100% 0,100% 100%,80% 87%,0 100%);
 	height: 1000px;
 	margin-top: 70px;
 }
-.card-sec .container .content{
+.cardd-sec  .content{
 	padding-top: 80px;
 }
-.card-sec .container .cnt-prg{
+.cardd-sec .container .cnt-prg{
 	font-size: 15px;
 }
-.card-sec .container .card{
- border-radius: 7px;
- width: 350PX;
 
-}
-.card-sec .content h4 span{
+.cardd-sec .content h4 span{
 	color: var(--green);
 }
 
-.card-sec .container .content  h4 {
+.cardd-sec  .content  h4 {
    font-weight: bold;
    font-size: 33px;
    margin-bottom: 10px;
-	font-family:Georgia;
+  font-family:Georgia;
 	
 }
-.card-sec .container .card-text   p{
+.cardd-sec .container .card-text   p{
 	font-family:Georgia;
 	font-size: 15px;
 
 }
-.card-sec .container .card .card-body h4{
+.cardd-sec .container .card .card-body h4{
 	font-size: 24.5px;
 		font-family:Georgia;
 }
@@ -453,22 +503,32 @@ clip-path: polygon(77% 0, 100% 0, 100% 35%, 100% 100%, 75% 87%, 0 100%, 0 100%, 
 	margin-top: 40px;
 	margin-bottom: 80px;
 }
-.card-sec .container .card span {
+.cardd-sec .container .card span {
 	color: grey;
 	margin-bottom: 20px;
 	font-family:Consolas;
 	font-size: 15px;
 
 }
-.card-sec .container .card p {
+.cardd-sec .container .card p {
 	margin-top: 10px;
 }
-.card-sec .container .card .card-body .btn {
+.cardd-sec .container .card .card-body .btn {
 	background-color: var(--green);
 	color: #fff;
 	font-family:Consolas;
 }
+.cardd-sec .container .card .card-body .btn:hover{
+	background-color:#000;
+	
+}
 
+.cardd-sec .container .card{
+ height: 550px;
+ margin-top: 10px;
+
+
+}
 
 /*============================================Form sec start=======================================*/
 

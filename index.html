@@ -18,6 +18,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@300&display=swap" rel="stylesheet">
 	<!-- animate css -->
 	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- aos animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 </head>
@@ -68,10 +70,10 @@
 		      <div class="container">
 		      	<div class="bnr-inr">
 			      	<div class="row">
-			      		<div class="col-lg-6 col-md-6 col-sm-4">
+			      		<div class="col-lg-6 col-md-6 col-sm-4" data-aos="fade-left">
 			      			<img src="assets/images/bg1.jpg" class="img-fluid" style="width: 350px; border-radius:5px;">
 			      		</div>
-			      		<div class="col-lg-6 col-md-6 col-sm-6 ">
+			      		<div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right">
 			      			<div class="content">
 			      				<h6>BILAL AHMAD</h6>
 			      				<h1 class="animate__animated animate__rubberBand">I'm a Creative<br><span>Designer</span></h1>
@@ -96,10 +98,10 @@
 <div class="about-bg">
    <div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-left">
 				<img src="assets/images/bg2.jpg" class="img-fluid" style="width: 300px; border-radius: 5px;">
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right">
 				<div class="content">
 			       <h1>About <span>Me</span></h1>
 			        <h6>Hello, I'm Bilal Ahmad: </h6>
@@ -131,11 +133,11 @@
 <!------------------------------- Services Sec Start --------------------------------->
 <div class="Services-sec ">
 	<div class="container">
-		<div class="srvc-hding">
+		<div class="srvc-hding" data-aos="fade-right">
 		  <h4 class="animate__animated animate__rubberBand"><span>Our</span> Services</h4>
 		  <p>It's all services available here for you wish and interest in  those intresting feild.</p>
 		</div>
-		<div class="row">
+		<div class="row" data-aos="zoom-in">
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div class="cardd">
 				    <div class="card-bodyy">
@@ -168,7 +170,7 @@
 			</div>
 	
         </div>
-		<div class="row">
+		<div class="row" data-aos="zoom-in">
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div class="cardd" >
 				    <div class="card-bodyy">
@@ -207,7 +209,7 @@
 <!------------------------------------------ Img desing sec start ---------------------------->
 <div id="service">
 <div class="img-dsgn">
-	<div class="container">
+	<div class="container" data-aos="fade-left">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
 				<div class="content">
@@ -316,7 +318,7 @@
 <div id="project">
 <div class="galry-sec">
 	<div class="container">
-		<div class="content text-center">
+		<div class="content text-center" data-aos="fade-right">
 			<h4><span>Our</span> Work</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt.
@@ -365,13 +367,13 @@
 	<div id="blog">
 	<div class="cardd-sec" style="background-color:#E7E9EC;">
 		
-			<div class="content text-center ">
+			<div class="content text-center" data-aos="fade-left">
 				<h4><span>Our</span> Card</h4>
 				<p class="cnt-prg" style="font-family: Consolas;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			   tempor labore et.</p>  
 			</div>
 			<div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-right>
             	<div class="col-lg-4 col-md-4 col-sm-4 py-3 py-sm-0">
             		<div class="card">
                        <img src="assets/images/card/card1.jpg" class="card-img-top" alt="...">
@@ -422,7 +424,7 @@
 	<div id="form">
 	<div class="form-sec">
 		<div class="container">
-			<div class="content text-center mt-5">
+			<div class="content text-center mt-5" data-aos="fade-right>
 				<h3><strong>Contact</strong> Me</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
 			    </p>  
@@ -505,7 +507,16 @@
                 </div> 
  -->   
 
-
+<!-- aos animate -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+    {
+      offset:300,
+      duration:2000,
+      
+    });
+  </script>
 
 </body>
      <!-- Jquery -->
